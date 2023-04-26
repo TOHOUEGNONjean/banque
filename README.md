@@ -35,3 +35,17 @@ En fonction de l'option choisie par l'utilisateur, le programme exécute une mé
 Le code utilise des classes pour représenter les clients et les comptes bancaires. Le module "banque" contient des méthodes pour gérer les clients et les comptes, telles que l'ajout d'un nouveau client, le dépôt d'argent sur un compte, le retrait d'argent d'un compte, le virement entre deux comptes, la suppression d'un compte, l'obtention d'informations sur un client, et la récupération du solde total de la banque.
 
 Le code utilise une boucle while pour afficher le menu à l'utilisateur tant qu'il ne choisit pas l'option "quitter".
+
+#Execution
+
+Assurez-vous d'avoir Python installé sur votre ordinateur. Si ce n'est pas le cas, téléchargez et installez Python à partir du site officiel :              https://www.python.org/downloads/
+
+Ouvrez une invite de commandes (ou un terminal) et accédez au répertoire où se trouve votre fichier client.py.
+
+Exécutez le programme en tapant python client.py dans l'invite de commandes (ou le terminal).
+
+Le programme affichera un menu d'options à l'utilisateur, qui peut choisir entre plusieurs fonctionnalités telles que l'inscription d'un client, le dépôt, le retrait, le virement, la suppression d'un compte, l'affichage des informations d'un client ou le solde de la banque.
+
+Suivez les instructions fournies par le programme pour utiliser chaque fonctionnalité.
+
+Lorsque vous avez terminé d'utiliser le programme, choisissez l'option "Quitter" pour sortir du programme.
