@@ -49,3 +49,5 @@ Le programme affichera un menu d'options à l'utilisateur, qui peut choisir entr
 Suivez les instructions fournies par le programme pour utiliser chaque fonctionnalité.
 
 Lorsque vous avez terminé d'utiliser le programme, choisissez l'option "Quitter" pour sortir du programme.
+
+## TOHOUEGNON Jean-baptiste
