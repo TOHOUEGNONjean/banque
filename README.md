@@ -8,7 +8,7 @@
 ### Information client
 ### Consulter solde banque
 
-#banque.py
+# Banque.py
 
 Ce code est en Python et définit deux classes : Clients et Banque.
 
@@ -26,7 +26,7 @@ Les méthodes de la classe Banque sont les suivantes :
   info_client() : cette méthode prend un numéro de téléphone en entrée, trouve le client correspondant dans la liste des clients et affiche ses informations.
   solde_banque() : cette méthode calcule le solde total de la banque en additionnant le solde de chaque client et l'affiche.
   
-#client.py
+# Client.py
 
 Le programme affiche un menu permettant à l'utilisateur de choisir entre différentes options : inscription, dépôt, retrait, virement, suppression de compte, information client, solde banque, et quitter.
 
@@ -36,7 +36,7 @@ Le code utilise des classes pour représenter les clients et les comptes bancair
 
 Le code utilise une boucle while pour afficher le menu à l'utilisateur tant qu'il ne choisit pas l'option "quitter".
 
-#Execution
+# Execution
 
 Assurez-vous d'avoir Python installé sur votre ordinateur. Si ce n'est pas le cas, téléchargez et installez Python à partir du site officiel :              https://www.python.org/downloads/
 
