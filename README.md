@@ -8,6 +8,8 @@
 ### Information client
 ### Consulter solde banque
 
+#banque.py
+
 Ce code est en Python et définit deux classes : Clients et Banque.
 
 La classe Clients a pour but de créer des clients avec les attributs suivants : nom, prénom, email, numéro de téléphone, profession et solde. Elle contient un constructeur init() qui initialise ces attributs pour chaque instance de la classe.
@@ -24,4 +26,12 @@ Les méthodes de la classe Banque sont les suivantes :
   info_client() : cette méthode prend un numéro de téléphone en entrée, trouve le client correspondant dans la liste des clients et affiche ses informations.
   solde_banque() : cette méthode calcule le solde total de la banque en additionnant le solde de chaque client et l'affiche.
   
-  
+#client.py
+
+Le programme affiche un menu permettant à l'utilisateur de choisir entre différentes options : inscription, dépôt, retrait, virement, suppression de compte, information client, solde banque, et quitter.
+
+En fonction de l'option choisie par l'utilisateur, le programme exécute une méthode spécifique du module "banque". Par exemple, si l'utilisateur choisit l'option "dépôt", le programme demande à l'utilisateur de saisir le numéro du compte sur lequel il souhaite effectuer le dépôt et le montant à déposer, puis il appelle la méthode "depot" du module "banque" en lui transmettant ces informations.
+
+Le code utilise des classes pour représenter les clients et les comptes bancaires. Le module "banque" contient des méthodes pour gérer les clients et les comptes, telles que l'ajout d'un nouveau client, le dépôt d'argent sur un compte, le retrait d'argent d'un compte, le virement entre deux comptes, la suppression d'un compte, l'obtention d'informations sur un client, et la récupération du solde total de la banque.
+
+Le code utilise une boucle while pour afficher le menu à l'utilisateur tant qu'il ne choisit pas l'option "quitter".
